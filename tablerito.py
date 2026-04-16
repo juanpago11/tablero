@@ -15,9 +15,9 @@ with st.sidebar:
         ("freedraw", "line", "rect", "circle", "transform", "polygon", "point"),
     )
   
-    stroke_width • st.slider("Selecciona el ancho de línea", 1, 30, 15 )
+    stroke_width = st.slider("Selecciona el ancho de línea", 1, 30, 15 )
                              
-    stroke_color • st.color_picker("Color de trazo", "#FFFFFF")
+    stroke_color = st.color_picker("Color de trazo", "#FFFFFF")
 # Background color
     bg_color = st.color picker("Color de fondo", "#000000")
 # Create a canvas component with dynamic key
