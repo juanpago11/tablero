@@ -5,6 +5,8 @@ from streamlit_drawable_canvas import st_canvas
 st.title("🎨 Super Tablero")
 st.subheader("Dibuja en él ✏️")
 
+st.image("mickey.jpg", caption="Mi tablero creativo", use_container_width=True)
+
 with st.sidebar:
     st.subheader("⚙️ Propiedades del Tablero")
 
