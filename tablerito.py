@@ -19,7 +19,7 @@ with st.sidebar:
                              
     stroke_color = st.color_picker("Color de trazo", "#FFFFFF")
 # Background color
-    bg_color = st.color picker("Color de fondo", "#000000")
+    bg_color = st.color_picker("Color de fondo", "#000000")
 # Create a canvas component with dynamic key
 canvas_result = st_canvas(
     fil1_color="rgba(255, 165, 0, 0.3)",
