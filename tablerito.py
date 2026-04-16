@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 
 # 🎯 Título personalizado
-st.title("🟧 Super Tablero")
+st.title("🎨  Super Tablero")
 st.subheader("Dibuja en él ✏️")
 
 with st.sidebar:
