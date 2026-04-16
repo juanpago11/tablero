@@ -28,6 +28,6 @@ canvas_result = st_canvas(
     background_color=bg_color,
     height=canvas_height,
     width=canvas_width,
-    drawing mode=drawing_mode,
+    drawing_mode=drawing_mode,
     key=f"canvas_{canvas_width}_{canvas_height}",
     )
